@@ -1,0 +1,62 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+@layer base {
+  :root {
+    --background: 0 0% 0%; /* Black */
+    --foreground: 0 0% 98%; /* White */
+    --card: 240 4% 15%; /* Dark Gray */
+    --card-foreground: 0 0% 98%; /* White */
+    --popover: 240 5% 4%;
+    --popover-foreground: 0 0% 98%;
+    --primary: 357 77% 51%; /* #E12530 */
+    --primary-foreground: 0 0% 98%;
+    --secondary: 240 4% 15%;
+    --secondary-foreground: 0 0% 98%;
+    --muted: 240 4% 15%;
+    --muted-foreground: 240 4% 65%; /* Muted Gray */
+    --accent: 357 77% 51%;
+    --accent-foreground: 0 0% 98%;
+    --destructive: 0 63% 31%;
+    --destructive-foreground: 0 0% 98%;
+    --border: 240 4% 15%;
+    --input: 240 4% 15%;
+    --ring: 357 77% 51%;
+    --radius: 0.5rem;
+  }
+ 
+  .dark {
+    --background: 0 0% 0%; /* Black */
+    --foreground: 0 0% 98%; /* White */
+    --card: 240 4% 15%; /* Dark Gray */
+    --card-foreground: 0 0% 98%; /* White */
+    --popover: 240 5% 4%;
+    --popover-foreground: 0 0% 98%;
+    --primary: 357 77% 51%; /* #E12530 */
+    --primary-foreground: 0 0% 98%;
+    --secondary: 240 4% 15%;
+    --secondary-foreground: 0 0% 98%;
+    --muted: 240 4% 15%;
+    --muted-foreground: 240 4% 65%; /* Muted Gray */
+    --accent: 357 77% 51%;
+    --accent-foreground: 0 0% 98%;
+    --destructive: 0 63% 31%;
+    --destructive-foreground: 0 0% 98%;
+    --border: 240 4% 15%;
+    --input: 240 4% 15%;
+    --ring: 357 77% 51%;
+  }
+}
+
+@layer base {
+  * {
+    border-color: hsl(var(--border));
+  }
+  body {
+    background-color: hsl(var(--background));
+    color: hsl(var(--foreground));
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+}
