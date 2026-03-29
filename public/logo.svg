@@ -1,0 +1,12 @@
+<svg width="102" height="32" viewBox="0 0 102 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect width="102" height="32" fill="none"/>
+<g id="Logo">
+<g id="Icon">
+<path d="M4 4H14V14H4V4Z" fill="#E12530" stroke="#E12530" stroke-width="2" stroke-linejoin="round"/>
+<path d="M18 4H28V14H18V4Z" stroke="#E12530" stroke-width="2" stroke-linejoin="round"/>
+<path d="M4 18H14V28H4V18Z" stroke="#E12530" stroke-width="2" stroke-linejoin="round"/>
+<path d="M18 18H28V28H18V18Z" fill="#E12530" stroke="#E12530" stroke-width="2" stroke-linejoin="round"/>
+</g>
+<text x="40" y="25" font-family="Poppins, sans-serif" font-size="26" font-weight="700" fill="white">HQ</text>
+</g>
+</svg>
